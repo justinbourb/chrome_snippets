@@ -36,3 +36,45 @@ a {
     font-weight: bold !important;
 }
 }
+@-moz-document url-prefix("https://tasks.wgu.edu/"), url-prefix("https://my.wgu.edu/"), url-prefix("https://access.wgu.edu/") {
+body, .rubric-result, .dm-assessment, .well, .card__content {
+    background: black !important;
+    color: white;
+}
+.mat-tab-list, .mat-list-item-content, .evaluation-header, .page-header, .accordion-trigger, .mat-expansion-panel-header {
+    background: rgb(0, 107, 150) !important;
+    background-color: rgb(0, 107, 150) !important;
+}
+
+.assessments__attempts__attempt, .card, .btn, .notification-settings-form__footer {
+    background: #565656 !important;    
+}
+
+.login__header__logo {
+  background-color: #565656   
+}
+
+
+.btn:hover, .sub-header__menu__item__text {
+    background: white !important;
+    color: black !important;
+}
+
+.grid__item, .mat-button {
+    color: black !important;
+}
+
+.btn, .form__item__field, .dm-assessment__task-order, .dm-assessment__status-text {
+    color: white !important;
+}
+
+a {
+    font-weight: bold !important;
+    color: #56B0FF !important;
+    text-decoration: underline !important;
+}
+
+.accordion-trigger--line__title {
+    font-weight: bold !important;
+}
+}
