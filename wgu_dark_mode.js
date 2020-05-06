@@ -1,0 +1,9 @@
+document.body.style.background = 'black';
+document.body.style.color = 'white';
+document.getElementsByClassName('page-header')[0].style.background = 'rgb(0, 107, 150)';
+document.getElementsByClassName('mat-tab-list')[0].style.background = 'rgb(0, 107, 150)';
+document.getElementsByClassName('mat-list-item-content')[0].style.background = 'rgb(0, 107, 150)';
+document.getElementsByClassName('mat-list-item-content')[1].style.background = 'rgb(0, 107, 150)';
+document.getElementsByClassName('mat-list-item-content')[2].style.background = 'rgb(0, 107, 150)';
+document.getElementsByClassName('mat-list-item-content')[3].style.background = 'rgb(0, 107, 150)';
+document.getElementsByClassName('mat-list-item-content')[4].style.background = 'rgb(0, 107, 150)';
