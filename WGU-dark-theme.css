@@ -1,10 +1,14 @@
-@-moz-document url-prefix("https://tasks.wgu.edu/student/001200647/course/11240006/task/118/overview#taskOverviewCompetencies"), url-prefix("https://tasks.wgu.edu/student/001200647/course/11240006/task/118/overview") {
-body, .rubric-result {
+@-moz-document url-prefix("https://tasks.wgu.edu/"), url-prefix("https://my.wgu.edu/") {
+body, .rubric-result, .dm-assessment, .well, .card__content {
     background: black !important;
     color: white;
 }
-.mat-tab-list, .mat-list-item-content, .evaluation-header, .page-header {
+.mat-tab-list, .mat-list-item-content, .evaluation-header, .page-header, .accordion-trigger, .mat-expansion-panel-header {
     background: rgb(0, 107, 150) !important;
     background-color: rgb(0, 107, 150) !important;
+}
+
+.assessments__attempts__attempt {
+    background: #565656 !important;    
 }
 }
