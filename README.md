@@ -1,5 +1,7 @@
 # chrome_snippets
 ## stylus chrome extension theme  
-WGU-dark-theme.css  
+WGU-dark-theme.css
+This is a dark theme for the my.wgu.edu website.  To use it install the stylus extension for your browser.  Further information can be found here https://github.com/openstyles/stylus.
 ## google chrome code snippets  
 wgu_dark_mode.js 
+This is a chrome code snippet to create a dark theme for the my.wgu.edu website.  However, it is not as extensive as the stylus theme above.
