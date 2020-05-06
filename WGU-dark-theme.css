@@ -1,0 +1,10 @@
+@-moz-document url-prefix("https://tasks.wgu.edu/student/001200647/course/11240006/task/118/overview#taskOverviewCompetencies"), url-prefix("https://tasks.wgu.edu/student/001200647/course/11240006/task/118/overview") {
+body, .rubric-result {
+    background: black !important;
+    color: white;
+}
+.mat-tab-list, .mat-list-item-content, .evaluation-header, .page-header {
+    background: rgb(0, 107, 150) !important;
+    background-color: rgb(0, 107, 150) !important;
+}
+}
