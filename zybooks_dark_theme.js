@@ -41,16 +41,34 @@ function forEachClassFunc(array, background, color) {
         }
     });
 }
+function runAll() {
+    forEachClassFunc(blackAndWhiteItems, 'black', 'white');
+    forEachClassFunc(greyBackgroundItems, '#565656');
+    forEachClassFunc(colorWhiteItems, 'null', 'white');
+    forEachClassFunc(colorBlackItems, 'null', 'black');
+    forEachClassFunc(colorOffWhiteItems, '#ecedea');
+    forEachTagFunc(colorWhiteTagItems, 'null', 'white');
+    forEachClassFunc(blueBackgroundItems, '#0261bd');
+    for (let i = 0; i < document.getElementsByClassName('nav-text').length; i++) {
+        document.getElementsByClassName('nav-text')[i].addEventListener('click', function() {
+            setTimeout(function (){   
+                runAll();
+            }, 1000);
+        })
+    }
+}
 
-forEachClassFunc(blackAndWhiteItems, 'black', 'white');
-forEachClassFunc(greyBackgroundItems, '#565656');
-forEachClassFunc(colorWhiteItems, 'null', 'white');
-forEachClassFunc(colorBlackItems, 'null', 'black');
-forEachClassFunc(colorOffWhiteItems, '#ecedea');
-forEachTagFunc(colorWhiteTagItems, 'null', 'white');
-forEachClassFunc(blueBackgroundItems, '#0261bd');
+runAll();
 
 //this does not work correctly, answer text only turns white after second click
 document.getElementsByTagName('body')[0].addEventListener('click',function(){
     setTimeout(forEachClassFunc(colorWhiteItems, 'null', 'white'),3000);
 })
+
+for (let i = 0; i < document.getElementsByClassName('nav-text').length; i++) {
+    document.getElementsByClassName('nav-text')[i].addEventListener('click', function() {
+        setTimeout(function (){   
+            runAll();
+        }, 1000);
+    })
+}
