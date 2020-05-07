@@ -49,3 +49,8 @@ forEachClassFunc(colorBlackItems, 'null', 'black');
 forEachClassFunc(colorOffWhiteItems, '#ecedea');
 forEachTagFunc(colorWhiteTagItems, 'null', 'white');
 forEachClassFunc(blueBackgroundItems, '#0261bd');
+
+//this does not work correctly, answer text only turns white after second click
+document.getElementsByTagName('body')[0].addEventListener('click',function(){
+    setTimeout(forEachClassFunc(colorWhiteItems, 'null', 'white'),3000);
+})
