@@ -7,4 +7,4 @@ zybooks-dark-theme.css  //This is a dark theme for the zybooks website.
 wgu_dark_theme.js //This is a chrome code snippet to create a dark theme for the my.wgu.edu website.  
 However, it is not as extensive as the stylus theme above.  
 zybooks_dark_theme.js //This is a chrome code snippet to create a dark theme for the zybooks website.  
-
+Dark theme reapplies itself after page navigation via forward/back and side panel navigation links.  Run once and forget it.
