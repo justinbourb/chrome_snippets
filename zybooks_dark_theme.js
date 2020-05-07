@@ -49,13 +49,22 @@ function runAll() {
     forEachClassFunc(colorOffWhiteItems, '#ecedea');
     forEachTagFunc(colorWhiteTagItems, 'null', 'white');
     forEachClassFunc(blueBackgroundItems, '#0261bd');
+    //adds eventlistener to forward and back navigation links
     for (let i = 0; i < document.getElementsByClassName('nav-text').length; i++) {
         document.getElementsByClassName('nav-text')[i].addEventListener('click', function() {
             setTimeout(function (){   
+                //reapplies formating and nav eventlisteners after changing page
                 runAll();
             }, 1000);
         })
     }
+    //adds eventlistener to side navigation
+    document.getElementById('ember939').addEventListener('click', function(){
+        setTimeout(function (){
+            //reapplies formating and nav eventlisteners after changing page
+            runAll();
+        }, 1000);
+    })
 }
 
 runAll();
@@ -65,10 +74,4 @@ document.getElementsByTagName('body')[0].addEventListener('click',function(){
     setTimeout(forEachClassFunc(colorWhiteItems, 'null', 'white'),3000);
 })
 
-for (let i = 0; i < document.getElementsByClassName('nav-text').length; i++) {
-    document.getElementsByClassName('nav-text')[i].addEventListener('click', function() {
-        setTimeout(function (){   
-            runAll();
-        }, 1000);
-    })
-}
+
