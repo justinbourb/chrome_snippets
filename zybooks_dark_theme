@@ -1,0 +1,37 @@
+@-moz-document url-prefix("https://learn.zybooks.com/") {
+.zb-card-content, .zb-card, .route-container, .section-nav {
+    background: black !important;
+    color: white !important;
+}
+
+.static-container, .interactive-activity-container {
+    background:#565656 !important;
+}
+
+h6, label, .text, .label, .activity-instructions, .term, .explanation, .show-again {
+    color: white !important;
+}
+
+.activity-type, .activity-title {
+    color: black;
+}
+
+.title {
+    font-weight: bold !important;
+    color: white !important;
+}
+
+button {
+    background: #B75D00 !important;
+    color: white !important;
+}
+
+button:hover {
+    background: white !important;
+    color: black !important;
+}
+
+.console, .ace-editor, .top-toolbar {
+    background: #ecedea !important;
+}
+}
