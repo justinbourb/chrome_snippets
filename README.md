@@ -8,3 +8,6 @@ wgu_dark_theme.js //This is a chrome code snippet to create a dark theme for the
 However, it is not as extensive as the stylus theme above.  
 zybooks_dark_theme.js //This is a chrome code snippet to create a dark theme for the zybooks website.  
 Dark theme reapplies itself after page navigation via forward/back and side panel navigation links.  Run once and forget it.
+
+## Non-theme related snippets
+uncheck_radio_buttons.js // unchecks the radio buttons for https://wgu-nx.acrobatiq.com/ personal practice assignments and resets the answer text.
