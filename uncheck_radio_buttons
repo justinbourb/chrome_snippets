@@ -1,0 +1,8 @@
+/* Purpose: unchecks the radio buttons for https://wgu-nx.acrobatiq.com/ personal 
+    practice assignments.
+*/
+
+let list = document.getElementsByClassName('answer-choice');
+for (let i = 0; i < list.length; i++) {
+  list[i].checked = false;
+}
